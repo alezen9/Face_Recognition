@@ -1,5 +1,5 @@
 {
-  "name": "facerecognition",
+  "name": "Face_Recognition",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://alezen9.github.io/Face_Recognition/",
@@ -17,11 +17,11 @@
     "url-parse": "^1.4.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   }
 }
