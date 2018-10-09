@@ -1,8 +1,8 @@
 {
-  "name": "Face_Recognition",
+  "name": "facerecognition",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alezen9.github.io/Face_Recognition/",
+  "homepage": "https://alezen9.github.io/facerecognition/",
   "dependencies": {
     "clarifai": "^2.7.1",
     "cryptiles": "^4.1.2",
