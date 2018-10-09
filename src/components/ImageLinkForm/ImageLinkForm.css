@@ -1,0 +1,21 @@
+.form{
+    width: 80vw;
+    margin: 50px 0;
+    background: #614385;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #51639570, #6143855e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #51639570, #61438567); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.roundInput{
+    min-width: 235px;
+    border-radius: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: none;
+}
+.roundDetect{
+    min-width: 170px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}

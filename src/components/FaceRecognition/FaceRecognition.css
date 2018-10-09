@@ -1,0 +1,18 @@
+.photo{
+    border-radius: 10px;
+    width: 70vw;
+}
+.photoDiv{
+    padding-top: 30px;
+    margin: 50px 0;
+}
+.bounding_box{
+    position: absolute;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.637);
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
