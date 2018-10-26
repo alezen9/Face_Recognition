@@ -9,6 +9,9 @@
 # production
 /build
 
+# keys
+/src/clarifaiKey.js
+
 # misc
 .DS_Store
 .env.local

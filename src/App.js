@@ -6,9 +6,10 @@ import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import FaceRecognition from './components/FaceRecognition/FaceRecognition';
 import Header from './components/Header/Header';
 import './App.css';
+const clarKey = require('./clarifaiKey');
 
 const app = new Clarifai.App({
-  apiKey: '819362a8c737487698100056521928b0'
+  apiKey: clarKey.key
 });
 
 const particlesOptions = {
